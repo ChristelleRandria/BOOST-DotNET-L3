@@ -1,0 +1,57 @@
+# --- GENERAL ---
+node_modules/
+bin/
+obj/
+*.log
+*.tmp
+*.temp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.db
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+
+# --- NEXT.JS (React Frontend) ---
+.next/
+out/
+.npm/
+.cache/
+.yarn/
+dist/
+
+# optional: if you're using Tailwind CSS
+tailwind.config.js
+postcss.config.js
+
+# --- DOTNET WEB API (Backend) ---
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.userprefs
+*.vs/
+*.vscode/
+*.db
+
+# ASP.NET secrets (optional, user-specific)
+secrets.json
+
+# --- SYSTEM FILES ---
+*.bak
+*.old
+*.orig
+*.rej
+*.log
+
+# --- PACKAGE LOCKS ---
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
